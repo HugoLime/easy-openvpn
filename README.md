@@ -1,6 +1,5 @@
-# ⭐ easy-openvpn ⭐
-🌐🔌 A simple template to set up a VPN with <a href="https://github.com/OpenVPN/openvpn"><img height="48" src="http://swupdate.openvpn.net/community/icons/openvpn_logo.png"></a>
-
+# easy-openvpn
+A simple template to set up a VPN with <a href="https://github.com/OpenVPN/openvpn"><img align="middle" height="48" src="http://swupdate.openvpn.net/community/icons/openvpn_logo.png"></a>
 
 ## 🔧 Installation
 
