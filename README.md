@@ -40,7 +40,7 @@ A simple template to set up a VPN with <a href="https://github.com/OpenVPN/openv
 
 ### 📡 On your VPS Server
 - Enable ip forwarding with `sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'`
-- Set up a masquerading rule with `sudo iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j SNAT --to-source SERVER_IP_ADDRESS`
+- Set up a masquerading rule with `sudo iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE`
 - Uncomment `push "redirect-gateway def1 bypass-dhcp"` in `server.conf`
 
 ### 💻 On your Client
